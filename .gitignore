@@ -1,0 +1,36 @@
+# Claude Code — conversaciones y configuración local
+.claude/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de trabajo / notas internas
+CLAUDE.md
+ponentes.md
+*.draft.*
+*.wip.*
+*.bak
+TODO.md
+NOTES.md
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (si se usa para dev)
+node_modules/
+npm-debug.log*
+.npm
+
+# Python (si se usa servidor local)
+__pycache__/
+*.pyc
+
+# Archivos de entorno
+.env
+.env.local

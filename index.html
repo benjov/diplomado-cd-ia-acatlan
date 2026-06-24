@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diplomado: Introducción a la Ciencia de Datos — FES Acatlán, UNAM</title>
+  <meta name="description" content="Diplomado en Ciencia de Datos y Aprendizaje Automatizado para Ciencias Sociales y Humanidades. 8ª generación, 240 horas, en línea. FES Acatlán, UNAM." />
+  <meta name="keywords" content="ciencia de datos, machine learning, humanidades, ciencias sociales, UNAM, FES Acatlán, diplomado, Python, R" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Diplomado: Introducción a la Ciencia de Datos — FES Acatlán UNAM" />
+  <meta property="og:description" content="Democratizando la ciencia de datos para las humanidades y ciencias sociales. 8ª generación, +150 egresados, en línea." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar" role="navigation" aria-label="Navegación principal">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" aria-label="Inicio">
+      <div class="nav-logo-icon" aria-hidden="true">📊</div>
+      <div>
+        <span>Diplomado CD-IA</span><br>
+        <small style="font-weight:400;font-size:0.7rem;color:rgba(255,255,255,0.5)">FES Acatlán · UNAM</small>
+      </div>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#por-que">¿Por qué?</a></li>
+      <li><a href="#temario">Temario</a></li>
+      <li><a href="#ponentes">Ponentes</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#info">Información</a></li>
+      <li><a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades" target="_blank" rel="noopener" class="nav-cta">Inscríbete</a></li>
+    </ul>
+
+    <button class="nav-hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero" aria-label="Presentación del diplomado">
+  <div class="hero-grid contenedor">
+
+    <div class="hero-texto">
+      <div class="hero-badge">
+        <span>●</span> 8ª Generación · Centro de Educación Continua
+      </div>
+
+      <h1 class="hero-titulo">
+        Diplomado: Introducción a la<br>
+        <span class="acento">Ciencia de Datos</span>
+      </h1>
+      <p class="hero-subtitulo">
+        "Democratizando la ciencia de datos para las humanidades y ciencias sociales"
+      </p>
+      <p class="hero-desc">
+        Herramientas de Aprendizaje Automatizado para profesionales de Ciencias Sociales y Humanidades.
+        <strong style="color:rgba(255,255,255,0.9)">Sin experiencia técnica previa requerida.</strong>
+      </p>
+
+      <div class="hero-botones">
+        <a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades" target="_blank" rel="noopener" class="btn btn-primario">
+          ✦ Inscríbete ahora
+        </a>
+        <a href="#temario" class="btn btn-secundario">Ver temario</a>
+      </div>
+
+      <div class="hero-chips">
+        <span class="hero-chip">🏛 FES Acatlán, UNAM</span>
+        <span class="hero-chip">💻 En línea</span>
+        <span class="hero-chip">🕐 240 horas</span>
+        <span class="hero-chip">🐍 Python &amp; R</span>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-stat-card">
+        <div class="hero-stat-num">150+</div>
+        <div class="hero-stat-label">Egresados formados</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-num">8ª</div>
+        <div class="hero-stat-label">Generación en curso</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-num">240h</div>
+        <div class="hero-stat-label">De formación intensiva</div>
+      </div>
+      <div class="hero-stat-card">
+        <div class="hero-stat-num">5+</div>
+        <div class="hero-stat-label">Ponentes especializados</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== POR QUÉ ===================== -->
+<section id="por-que" aria-labelledby="porq-titulo">
+  <div class="contenedor">
+    <span class="etiqueta">Propuesta de valor</span>
+    <h2 class="sec-titulo" id="porq-titulo">¿Por qué este diplomado?</h2>
+    <p class="sec-subtitulo">
+      Formación práctica, accesible y respaldada por la UNAM para profesionales que quieren incorporar datos en su trabajo.
+    </p>
+
+    <div class="porq-grid">
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">🏛</span>
+        <h3>Aval UNAM</h3>
+        <p>Respaldado por el Centro de Educación Continua de la FES Acatlán, con reconocimiento oficial de la universidad más importante de México.</p>
+      </div>
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">🚀</span>
+        <h3>Sin requisitos técnicos</h3>
+        <p>Diseñado desde cero para científicos sociales, humanistas y comunicólogos. Empezamos con lo básico y avanzamos paso a paso.</p>
+      </div>
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">🤝</span>
+        <h3>Comunidad activa</h3>
+        <p>Más de 150 egresados en 7 generaciones. Una red de profesionales que aplican ciencia de datos en economía, política, periodismo y más.</p>
+      </div>
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">🛠</span>
+        <h3>Herramientas reales</h3>
+        <p>Python, R, SQL y visualización de datos. Las mismas herramientas que usan profesionales en industria, gobierno y academia.</p>
+      </div>
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">📱</span>
+        <h3>100% en línea</h3>
+        <p>Clases en vivo por videoconferencia. Acceso a la plataforma académica de la UNAM con materiales, grabaciones y foros.</p>
+      </div>
+      <div class="porq-card fade-up">
+        <span class="porq-icono" aria-hidden="true">🎯</span>
+        <h3>Enfoque aplicado</h3>
+        <p>Cada módulo incluye casos de uso reales en ciencias sociales: análisis de texto, datos electorales, economía, políticas públicas.</p>
+      </div>
+      <div class="porq-card fade-up" style="border-color:var(--dorado);border-width:2px;">
+        <span class="porq-icono" aria-hidden="true">🎓</span>
+        <h3>Opción de titulación</h3>
+        <p>El diplomado es reconocido como <strong>opción de titulación</strong> para diversas licenciaturas de la FES Acatlán, UNAM. Consulta con tu coordinación académica la aplicabilidad para tu programa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DIRIGIDO A ===================== -->
+<section id="dirigido" aria-labelledby="dir-titulo">
+  <div class="contenedor">
+    <span class="etiqueta">Público objetivo</span>
+    <h2 class="sec-titulo" id="dir-titulo">¿A quién va dirigido?</h2>
+    <p class="sec-subtitulo">
+      A cualquier persona con curiosidad por los datos. No importa tu disciplina, importa tu motivación.
+    </p>
+
+    <div class="dirigido-grid">
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">📊</div>
+        <span>Economía</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">🗳</div>
+        <span>Ciencias Políticas</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">🌐</div>
+        <span>Relaciones Internacionales</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">📡</div>
+        <span>Comunicación y Periodismo</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">🏛</div>
+        <span>Historia</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">🤝</div>
+        <span>Sociología</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">💼</div>
+        <span>Sector Público</span>
+      </div>
+      <div class="dirigido-item fade-up">
+        <div class="dirigido-icono" aria-hidden="true">🔬</div>
+        <span>Investigación Social</span>
+      </div>
+    </div>
+
+    <div class="dirigido-nota">
+      <strong>¿No tienes experiencia con programación?</strong> No hay problema.
+      El diplomado está diseñado para llevarte de cero a un nivel práctico en ciencia de datos, con un ritmo accesible y acompañamiento constante.
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEMARIO ===================== -->
+<section id="temario" aria-labelledby="temario-titulo">
+  <div class="contenedor">
+    <span class="etiqueta" style="color:var(--teal)">Plan de estudios</span>
+    <h2 class="sec-titulo" id="temario-titulo">Temario del Diplomado</h2>
+    <p class="sec-subtitulo">240 horas distribuidas en seis módulos, de lo fundamental a lo avanzado.</p>
+
+    <div class="acordeon" role="list">
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo I</span>&nbsp;&nbsp;Introducción a R, Python y Estadística</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Fundamentos de programación en R y Python desde cero, junto con elementos esenciales de estadística descriptiva e inferencial.</p>
+            <ul>
+              <li>Instalación y entorno de trabajo (RStudio, Jupyter, Google Colab)</li>
+              <li>Tipos de datos, estructuras y operaciones básicas</li>
+              <li>Estadística descriptiva: medidas de tendencia, dispersión y forma</li>
+              <li>Probabilidad e introducción a la inferencia estadística</li>
+              <li>Importación y limpieza de datos reales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo II</span>&nbsp;&nbsp;Bases de Datos y Análisis Estadístico</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Manejo de bases de datos relacionales y análisis estadístico avanzado con herramientas de ciencia de datos.</p>
+            <ul>
+              <li>SQL: consultas, joins, agregaciones y subconsultas</li>
+              <li>Manipulación de datos con dplyr (R) y pandas (Python)</li>
+              <li>Análisis exploratorio de datos (EDA) sistemático</li>
+              <li>Regresión lineal y logística</li>
+              <li>Pruebas de hipótesis y validación de modelos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo III</span>&nbsp;&nbsp;Introducción al Machine Learning</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Conceptos fundamentales del aprendizaje automatizado con implementaciones prácticas en R y Python.</p>
+            <ul>
+              <li>Paradigmas de ML: supervisado, no supervisado y por refuerzo</li>
+              <li>Árboles de decisión, k-NN y regresión regularizada</li>
+              <li>Validación cruzada y métricas de evaluación</li>
+              <li>Scikit-learn (Python) y caret/tidymodels (R)</li>
+              <li>Casos de uso en ciencias sociales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo IV</span>&nbsp;&nbsp;Aplicaciones de Machine Learning con R y Python</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Implementación práctica de modelos de aprendizaje automatizado aplicados a problemas reales de ciencias sociales, usando R y Python de forma paralela.</p>
+            <ul>
+              <li><strong>Modelos de regresión lineal:</strong> OLS, regresión múltiple, supuestos y diagnóstico de modelos</li>
+              <li><strong>Modelos de agrupamiento:</strong> k-means, clustering jerárquico, segmentación de datos sociales</li>
+              <li><strong>Modelos de variables categóricas:</strong> regresión logística, clasificación y evaluación de desempeño</li>
+              <li><strong>Análisis de texto (NLP):</strong> tokenización, análisis de sentimientos, modelado de tópicos, clasificación de textos</li>
+              <li>Flujo completo: preprocesamiento, entrenamiento, validación y comunicación de resultados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo V</span>&nbsp;&nbsp;Visualización de Datos</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Comunicación efectiva de datos mediante visualizaciones estáticas, interactivas y narrativas visuales.</p>
+            <ul>
+              <li>Principios de diseño y percepción visual</li>
+              <li>ggplot2 (R) y matplotlib/seaborn/plotly (Python)</li>
+              <li>Dashboards interactivos con Shiny y Streamlit</li>
+              <li>Herramientas no-code: Flourish, Datawrapper, Tableau Public</li>
+              <li>Data storytelling: narrativa con datos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordeon-item fade-up" role="listitem">
+        <button class="acordeon-btn" aria-expanded="false">
+          <span><span class="acordeon-num">Módulo VI</span>&nbsp;&nbsp;Temas Selectos para el Análisis de Datos</span>
+          <span class="acordeon-icono" aria-hidden="true">▾</span>
+        </button>
+        <div class="acordeon-body" role="region">
+          <div class="acordeon-contenido">
+            <p>Cada generación convoca a <strong style="color:var(--teal)">expertas y expertos invitados</strong> de academia, sector público, industria tecnológica y sociedad civil. En generaciones anteriores hemos contado con especialistas de organizaciones como:</p>
+            <ul>
+              <li><strong>DataGénero</strong> — Observatorio feminista de datos e IA en América Latina; presentaron su herramienta de código abierto <em>AymurAI</em> para el análisis de documentos judiciales con perspectiva de género</li>
+              <li><strong>Google</strong> — Aplicaciones de IA y herramientas de productividad para el análisis de datos a escala</li>
+              <li><strong>NormaPlus.ai</strong> — IA aplicada al análisis normativo y regulatorio en México</li>
+              <li><strong>La Cadera de Eva</strong> — Periodismo de datos con perspectiva de género: metodología y comunicación visual</li>
+              <li>Expertas y expertos de universidades públicas, organismos internacionales y startups de datos en México</li>
+            </ul>
+            <p style="margin-top:.75rem;font-size:.85rem;color:rgba(255,255,255,.5)">Los perfiles invitados varían por generación.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PONENTES ===================== -->
+<section id="ponentes" aria-labelledby="pon-titulo">
+  <div class="contenedor">
+    <span class="etiqueta">Equipo académico</span>
+    <h2 class="sec-titulo" id="pon-titulo">Ponentes</h2>
+    <p class="sec-subtitulo">
+      Especialistas en economía, ciencia política, econometría y ciencia de datos, todos con amplia experiencia docente en la UNAM.
+    </p>
+
+    <div class="ponentes-grid">
+
+      <!-- Javier Galán — Coordinador -->
+      <!-- TODO: validar bio con ponente -->
+      <article class="ponente-card ponente-coordinador fade-up">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#0369a1,#0891b2);" aria-label="Iniciales JG">JG</div>
+          <div class="ponente-info">
+            <div style="font-size:0.72rem;font-weight:700;color:var(--dorado);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.2rem">Coordinador</div>
+            <h3>Dr. Javier Galán Figueroa</h3>
+            <p class="ponente-titulo">Dr. en Ciencias Económicas · IPN / UNAM</p>
+            <span class="ponente-especialidad">Econometría · Series de Tiempo · Datos de Panel</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Doctor en Ciencias Económicas por el IPN y Maestro en Economía por la UNAM. Profesor de la División de Estudios de Posgrado de la Facultad de Economía, UNAM, y de la FES Acatlán. Especialista en modelos econométricos y política monetaria y fiscal.
+        </p>
+        <div class="ponente-links">
+          <a href="https://www.linkedin.com/in/javier-galán-figueroa-phd-8bb20839/" target="_blank" rel="noopener" class="ponente-link" aria-label="LinkedIn de Javier Galán">🔗 LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=-5vxdvIAAAAJ" target="_blank" rel="noopener" class="ponente-link" aria-label="Google Scholar de Javier Galán">📚 Scholar</a>
+        </div>
+      </article>
+
+      <!-- Jésica Tapia -->
+      <!-- TODO: validar bio con ponente -->
+      <article class="ponente-card fade-up">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#7c3aed,#c026d3);" aria-label="Iniciales JT">JT</div>
+          <div class="ponente-info">
+            <h3>Mtra. Jésica Edith Tapia Reyes</h3>
+            <p class="ponente-titulo">Mtra. en Ciencia Política · CIDE / UNAM IIMAS</p>
+            <span class="ponente-especialidad">Ciencia Política · Métodos Cuantitativos</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Politóloga egresada del CIDE con formación en análisis cuantitativo aplicado a las ciencias sociales. Docente en programas de ciencia de datos en el IIMAS-UNAM. Su trabajo combina métodos computacionales con investigación en política comparada y relaciones internacionales.
+        </p>
+        <div class="ponente-links">
+          <a href="https://www.linkedin.com/in/jesicatapiareyes/" target="_blank" rel="noopener" class="ponente-link" aria-label="LinkedIn de Jésica Tapia">🔗 LinkedIn</a>
+        </div>
+      </article>
+
+      <!-- Jorge Nájera -->
+      <!-- TODO: validar bio con ponente -->
+      <article class="ponente-card fade-up">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#065f46,#10b981);" aria-label="Iniciales JN">JN</div>
+          <div class="ponente-info">
+            <h3>Jorge Alberto Nájera Salmerón</h3>
+            <p class="ponente-titulo">Científico de Datos · UNAM</p>
+            <span class="ponente-especialidad">Series de Tiempo · Big Data · Finanzas</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Científico de datos con formación en Econometría, Big Data y Finanzas Bursátiles. Docente universitario afiliado a la UNAM. Ha presentado en conferencias como Data Day (Software Guru) sobre pronósticos con series de tiempo en R.
+        </p>
+        <div class="ponente-links">
+          <a href="https://www.linkedin.com/in/jorge-najera-datascience/" target="_blank" rel="noopener" class="ponente-link" aria-label="LinkedIn de Jorge Nájera">🔗 LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=utE47TsAAAAJ" target="_blank" rel="noopener" class="ponente-link" aria-label="Google Scholar de Jorge Nájera">📚 Scholar</a>
+        </div>
+      </article>
+
+      <!-- Raymundo Galdino -->
+      <!-- TODO: validar bio con ponente -->
+      <article class="ponente-card fade-up">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#92400e,#d97706);" aria-label="Iniciales RG">RG</div>
+          <div class="ponente-info">
+            <h3>Raymundo Galdino R.</h3>
+            <p class="ponente-titulo">Economista · UNAM</p>
+            <span class="ponente-especialidad">ML Aplicado · Sistemas Complejos · Movilidad</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Profesional en ciencia de datos con formación económica, adscrito a programas de posgrado de la UNAM. Ponente en el Seminario Interdisciplinario en Complejidad y Economía del Instituto de Investigaciones Económicas. Su trabajo abarca movilidad urbana y sistemas complejos.
+        </p>
+        <div class="ponente-links">
+          <a href="https://www.linkedin.com/in/raymundo-galdino-r-71556199/" target="_blank" rel="noopener" class="ponente-link" aria-label="LinkedIn de Raymundo Galdino">🔗 LinkedIn</a>
+        </div>
+      </article>
+
+      <!-- Benjamín Oliva -->
+      <!-- TODO: validar bio con ponente -->
+      <article class="ponente-card fade-up">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#1a2744,#2dd4bf);" aria-label="Iniciales BO">BO</div>
+          <div class="ponente-info">
+            <h3>Mtro. Benjamín Oliva Vázquez</h3>
+            <p class="ponente-titulo">Economista &amp; Actuario · UNAM / CIDE</p>
+            <span class="ponente-especialidad">NLP · ML Aplicado · IA Aplicada</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Economista y Actuario con experiencia en consultoría y sector público. Enfocado en soluciones basadas en datos, analítica e IA para la toma de decisiones en entornos regulados, con énfasis en transparencia y rendición de cuentas. Docente en Tec de Monterrey, UNAM y CIDE.
+        </p>
+        <div class="ponente-links">
+          <a href="https://www.linkedin.com/in/benjamin-oliva-v/" target="_blank" rel="noopener" class="ponente-link" aria-label="LinkedIn de Benjamín Oliva">🔗 LinkedIn</a>
+          <a href="https://github.com/benjov" target="_blank" rel="noopener" class="ponente-link" aria-label="GitHub de Benjamín Oliva">💻 GitHub</a>
+        </div>
+      </article>
+
+      <!-- Expertas y Expertos Invitados -->
+      <article class="ponente-card fade-up" style="background:linear-gradient(135deg,#f0f4f9,#fff);border-style:dashed;">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <div class="ponente-avatar" style="background: linear-gradient(135deg,#374151,#6b7280);" aria-label="Expertos invitados">★</div>
+          <div class="ponente-info">
+            <h3>Expertas y Expertos Invitados</h3>
+            <p class="ponente-titulo">Módulo VI — Varía por generación</p>
+            <span class="ponente-especialidad">Academia · Gobierno · Industria · Sociedad Civil</span>
+          </div>
+        </div>
+        <p class="ponente-bio">
+          Cada generación convoca a especialistas de organizaciones como DataGénero, Google, NormaPlus.ai, La Cadera de Eva y más, conectando a los participantes con el ecosistema de datos en México.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROYECTOS ===================== -->
+<section id="proyectos" aria-labelledby="proy-titulo">
+  <div class="contenedor">
+    <span class="etiqueta">Portafolio</span>
+    <h2 class="sec-titulo" id="proy-titulo">Proyectos de Egresados</h2>
+    <p class="sec-subtitulo">
+      Una muestra del trabajo que nuestros estudiantes construyen durante el diplomado.
+    </p>
+
+    <div class="proyectos-grid">
+
+      <!-- Proyecto real -->
+      <article class="proyecto-card fade-up">
+        <div class="proyecto-preview" style="background:linear-gradient(135deg,#1a2744,#0f766e);">
+          <span aria-hidden="true">🗺</span>
+          <span class="proyecto-badge">Destacado</span>
+        </div>
+        <div class="proyecto-body">
+          <p class="proyecto-meta">Visualización de datos · Flourish · Scrollytelling</p>
+          <h3>El valor económico del trabajo no remunerado de las mujeres en México</h3>
+          <p class="proyecto-desc">
+            Análisis interactivo del valor económico del trabajo doméstico y de cuidados no remunerado realizado por mujeres en México. Mapas por entidad federativa, tendencias históricas y análisis comparativo regional.
+          </p>
+          <a href="https://public.flourish.studio/story/3643580/" target="_blank" rel="noopener" class="proyecto-link" aria-label="Ver proyecto de Benjamín Oliva">
+            Ver proyecto →
+          </a>
+        </div>
+      </article>
+
+      <!-- Placeholder 2 -->
+      <article class="proyecto-card fade-up">
+        <div class="proyecto-preview proximamente" aria-hidden="true">
+          <span>📊</span>
+          <span class="proyecto-badge pronto">Próximamente</span>
+        </div>
+        <div class="proyecto-body">
+          <p class="proyecto-meta">Proyecto de egresado · Por confirmar</p>
+          <h3>Análisis de Discurso Parlamentario con NLP</h3>
+          <p class="proyecto-desc">
+            Próximamente compartiremos más proyectos destacados de nuestros egresados. Si eres egresado/a y quieres compartir tu proyecto, contáctanos.
+          </p>
+        </div>
+      </article>
+
+      <!-- Placeholder 3 -->
+      <article class="proyecto-card fade-up">
+        <div class="proyecto-preview proximamente" aria-hidden="true">
+          <span>🤖</span>
+          <span class="proyecto-badge pronto">Próximamente</span>
+        </div>
+        <div class="proyecto-body">
+          <p class="proyecto-meta">Proyecto de egresado · Por confirmar</p>
+          <h3>Modelos Predictivos en Política Pública</h3>
+          <p class="proyecto-desc">
+            Próximamente compartiremos más proyectos destacados de nuestros egresados. Si eres egresado/a y quieres compartir tu proyecto, contáctanos.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIOS ===================== -->
+<section id="testimonios" aria-labelledby="test-titulo">
+  <div class="contenedor">
+    <span class="etiqueta" style="color:var(--teal)">Lo que dicen</span>
+    <h2 class="sec-titulo" id="test-titulo">Testimonios</h2>
+    <p class="sec-subtitulo">Voces de quienes ya recorrieron este camino.</p>
+
+    <div class="testimonios-grid">
+      <div class="testimonio-card fade-up">
+        <div class="testimonio-comilla" aria-hidden="true">"</div>
+        <p class="testimonio-texto">
+          El diplomado me dio las herramientas para analizar datos electorales que antes tenía que delegar a otros. Ahora puedo hacerlo yo misma y con mucha más profundidad.
+        </p>
+        <div class="testimonio-autor">
+          <strong>Egresada, 6ª Generación</strong>
+          Consultora en asuntos públicos
+        </div>
+      </div>
+      <div class="testimonio-card fade-up">
+        <div class="testimonio-comilla" aria-hidden="true">"</div>
+        <p class="testimonio-texto">
+          Llegué sin saber absolutamente nada de programación. El ritmo es perfecto para quienes venimos de humanidades. Los ponentes son muy pacientes y el contenido es práctico desde el primer día.
+        </p>
+        <div class="testimonio-autor">
+          <strong>Egresado, 5ª Generación</strong>
+          Investigador en ciencias sociales
+        </div>
+      </div>
+      <div class="testimonio-card fade-up">
+        <div class="testimonio-comilla" aria-hidden="true">"</div>
+        <p class="testimonio-texto">
+          Lo que más valoro es la comunidad. Seguimos en contacto, compartiendo proyectos y oportunidades. El diplomado fue el inicio de una red profesional muy valiosa.
+        </p>
+        <div class="testimonio-autor">
+          <strong>Egresada, 7ª Generación</strong>
+          Analista de datos en gobierno federal
+        </div>
+      </div>
+    </div>
+
+    <p style="text-align:center;margin-top:2rem;font-size:0.85rem;color:rgba(255,255,255,0.4)">
+      * Testimonios en proceso de validación con egresados.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== INFO PRÁCTICA ===================== -->
+<section id="info" aria-labelledby="info-titulo">
+  <div class="contenedor">
+    <span class="etiqueta">Información práctica</span>
+    <h2 class="sec-titulo" id="info-titulo">Detalles del Diplomado</h2>
+    <p class="sec-subtitulo">Todo lo que necesitas saber antes de inscribirte.</p>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">⏱</span>
+        <div>
+          <h4>Duración</h4>
+          <p>240 horas totales</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">💻</span>
+        <div>
+          <h4>Modalidad</h4>
+          <p>100% en línea (videoconferencia)</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">📅</span>
+        <div>
+          <h4>Horario</h4>
+          <p>Viernes 18:00–21:30 h<br>Sábado 09:00–13:30 h</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">🎓</span>
+        <div>
+          <h4>Generación</h4>
+          <p>8ª Generación en curso</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">📋</span>
+        <div>
+          <h4>Requisitos</h4>
+          <p>Ninguno técnico — solo curiosidad y compromiso</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icono" aria-hidden="true">🏛</span>
+        <div>
+          <h4>Institución</h4>
+          <p>Centro de Educación Continua, FES Acatlán, UNAM</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--fuente-display);font-size:1.2rem;color:var(--azul);margin-bottom:0.5rem;">
+      Aportaciones por tipo de comunidad
+    </h3>
+    <p style="color:var(--gris);font-size:0.9rem;margin-bottom:0;">Los costos pueden variar por generación. Consultar al momento de la inscripción.</p>
+    <table class="costos-tabla" aria-label="Tabla de costos por tipo de comunidad">
+      <thead>
+        <tr>
+          <th>Comunidad</th>
+          <th>Aportación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Comunidad externa</td>
+          <td class="precio">$22,560.00 MXN</td>
+        </tr>
+        <tr>
+          <td>Egresados del diplomado</td>
+          <td class="precio">$20,500.00 MXN</td>
+        </tr>
+        <tr>
+          <td>Comunidad UNAM</td>
+          <td class="precio">$18,025.00 MXN</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top:1.25rem;font-size:0.85rem;color:var(--gris);">
+      Para más información y formas de pago, visita la página del
+      <a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades"
+         target="_blank" rel="noopener"
+         style="color:var(--teal-dark);font-weight:600;">
+        Centro de Educación Continua →
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section id="cta-final" aria-labelledby="cta-titulo">
+  <div class="contenedor" style="position:relative;z-index:1">
+    <span class="etiqueta" style="color:var(--teal)">¿Lista/o para empezar?</span>
+    <h2 class="sec-titulo" id="cta-titulo">Da el siguiente paso</h2>
+    <p class="sec-subtitulo">
+      Únete a más de 150 profesionales que ya transformaron su perfil con ciencia de datos.
+      La 8ª generación está en curso — consulta fechas de inicio de la 9ª generación.
+    </p>
+
+    <div class="cta-botones">
+      <a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades" target="_blank" rel="noopener" class="btn btn-primario" style="font-size:1.1rem;padding:1rem 2.5rem;">
+        ✦ Inscríbete ahora
+      </a>
+      <a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades"
+         target="_blank" rel="noopener" class="btn btn-secundario">
+        Más información →
+      </a>
+    </div>
+
+    <p class="cta-contacto">
+      ¿Tienes dudas? Escríbenos a
+      <a href="mailto:benjov@ciencias.unam.mx">benjov@ciencias.unam.mx</a>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="nav-logo">
+        <div class="nav-logo-icon" aria-hidden="true">📊</div>
+        <div>
+          <span>Diplomado CD-IA</span><br>
+          <small style="font-weight:400;font-size:0.7rem;color:rgba(255,255,255,0.4)">FES Acatlán · UNAM</small>
+        </div>
+      </div>
+      <p>
+        Diplomado: Introducción a la Ciencia de Datos — Herramientas para el Aprendizaje Automatizado en las Ciencias Sociales y Humanidades.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#por-que">¿Por qué el diplomado?</a></li>
+        <li><a href="#temario">Temario</a></li>
+        <li><a href="#ponentes">Ponentes</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#info">Información práctica</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="https://educacioncontinua.acatlan.unam.mx/" target="_blank" rel="noopener">CEC — FES Acatlán</a></li>
+        <li><a href="https://www.acatlan.unam.mx/" target="_blank" rel="noopener">FES Acatlán</a></li>
+        <li><a href="https://ceted.acatlan.unam.mx/diplomados/mdl/" target="_blank" rel="noopener">Plataforma académica</a></li>
+        <li><a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades" target="_blank" rel="noopener">Inscripciones</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="anio-actual"></span> Diplomado CD-IA — FES Acatlán, UNAM. Todos los derechos reservados.</span>
+    <span>Hecho con ♥ por el equipo de ponentes</span>
+  </div>
+</footer>
+
+<!-- Sticky CTA (mobile) -->
+<a href="https://educacioncontinua.acatlan.unam.mx/?portfolio=introduccion-a-la-ciencia-de-datos-herramientas-para-el-aprendizaje-automatizado-en-las-ciencias-sociales-y-humanidades" target="_blank" rel="noopener"
+   class="sticky-cta btn btn-primario" aria-label="Inscríbete ahora">
+  ✦ Inscríbete
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
